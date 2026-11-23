@@ -10,3 +10,4 @@
 {"name": "cuadro-ref-ugc1", "task_id": "task_01M852P1B1BY4FZ8470G55DJNT", "model": "gpt-image-2", "t": 1795466921.4708393}
 {"name": "cuadro-ref-ugc1-b", "task_id": "task_01M852QQBK1NFTNMCJD6S01STE", "model": "gpt-image-2", "t": 1795466976.7984395}
 {"name": "ugc1-C1-ref", "task_id": "task_01M852SSPB940D1Z1Z7GKQDQ43", "model": "wan2.7-r2v", "t": 1795467044.7256398}
+{"name": "ugc1-C1-videoref", "task_id": "task_01M85350MM9BJQJ2ZP1YS9XZ8D", "model": "wan2.7-r2v", "t": 1795467412.270384}
