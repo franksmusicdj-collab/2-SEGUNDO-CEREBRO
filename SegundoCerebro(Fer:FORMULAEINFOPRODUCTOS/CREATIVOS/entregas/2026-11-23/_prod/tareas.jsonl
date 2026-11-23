@@ -7,3 +7,6 @@
 {"name": "sfx-impacto-celular", "task_id": "task_01M851QTGCRAF9621HA6CP82MD", "model": "suno-sounds", "t": 1795465931.4635215}
 {"name": "foto-ugc1-B-pared", "task_id": "task_01M8522Y77Q4D9HVWTK60DEP9X", "model": "gpt-image-2", "t": 1795466295.6923256}
 {"name": "ugc1-C1-plano-unico", "task_id": "task_01M8524TP29HE6PP10NJKSH9HW", "model": "wan2.7-r2v", "t": 1795466357.6030538}
+{"name": "cuadro-ref-ugc1", "task_id": "task_01M852P1B1BY4FZ8470G55DJNT", "model": "gpt-image-2", "t": 1795466921.4708393}
+{"name": "cuadro-ref-ugc1-b", "task_id": "task_01M852QQBK1NFTNMCJD6S01STE", "model": "gpt-image-2", "t": 1795466976.7984395}
+{"name": "ugc1-C1-ref", "task_id": "task_01M852SSPB940D1Z1Z7GKQDQ43", "model": "wan2.7-r2v", "t": 1795467044.7256398}

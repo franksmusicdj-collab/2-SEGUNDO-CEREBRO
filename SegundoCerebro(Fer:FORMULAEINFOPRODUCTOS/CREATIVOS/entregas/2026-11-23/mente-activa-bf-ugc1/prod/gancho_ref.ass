@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Anton,75,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,6,2,5,30,30,0,1
+Style: CAJA,Anton,61,&H00FFFFFF,&H00FFFFFF,&H50202020,&H50202020,0,0,0,0,100,100,1,0,3,11,0,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.33,0:00:03.85,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H5CD3F7&}CHEGA!{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.30,0:00:04.99,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}NÃO AGUENTO MAIS
+Dialogue: 0,0:00:04.94,0:00:05.41,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}FICAR O DIA
+Dialogue: 0,0:00:05.36,0:00:06.07,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}INTEIRO NESSE
+Dialogue: 0,0:00:06.02,0:00:06.41,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H5CD3F7&}CELULAR!{\c&HFFFFFF&}

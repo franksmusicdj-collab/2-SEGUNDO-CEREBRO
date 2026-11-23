@@ -27,7 +27,10 @@ def wait(tid, every=10, max_s=1800):
         time.sleep(every)
     raise TimeoutError(tid)
 
-def download(url, dest):
+def download(url, dest, nuevo=True):
+    """nuevo=True: borra el archivo previo (otra generación). Para reanudar una descarga cortada, nuevo=False."""
+    if nuevo and os.path.exists(dest):
+        os.remove(dest)
     for _ in range(4):
         if subprocess.run(["curl", "-sL", "-C", "-", "--retry", "3", "--max-time", "300", "-o", dest, url]).returncode == 0:
             return dest
