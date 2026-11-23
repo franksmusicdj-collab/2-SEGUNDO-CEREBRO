@@ -28,6 +28,10 @@ Para el contexto del método, mirá también en la wiki `funnel-hacking.md`, `se
 
 Avisá al usuario qué fuente usaste, porque los conteos de EspiAd y los de la Biblioteca pueden no coincidir.
 
+## Después de la caza
+
+Cuando haya candidata A, ofrecé hacerle un **rayo X** con la skill `rayo-x` para definir con qué anuncios salir a testearla.
+
 ## Dónde guardar
 
 Si el usuario quiere conservar el reporte, guardalo en `SegundoCerebro(Fer:FORMULAEINFOPRODUCTOS/OUTPUTS/YYYY-MM-DD-caza-<nicho>.md` con el frontmatter que pide el `CLAUDE.md`, y anotalo en `WIKI/index.md` y en `changelog.md`.
