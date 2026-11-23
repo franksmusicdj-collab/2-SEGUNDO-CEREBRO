@@ -5,3 +5,5 @@
 {"name": "ugc1-C1-prueba-b", "task_id": "task_01M851FGZV6S3PXGXHNA149CE9", "model": "wan2.7-r2v", "t": 1795465659.5639467}
 {"name": "ugc1-INSERTO-celular-pared", "task_id": "task_01M851QSWH03WVXGWZKDNMAY2J", "model": "grok-imagine-1.5-video-ext", "t": 1795465930.797758}
 {"name": "sfx-impacto-celular", "task_id": "task_01M851QTGCRAF9621HA6CP82MD", "model": "suno-sounds", "t": 1795465931.4635215}
+{"name": "foto-ugc1-B-pared", "task_id": "task_01M8522Y77Q4D9HVWTK60DEP9X", "model": "gpt-image-2", "t": 1795466295.6923256}
+{"name": "ugc1-C1-plano-unico", "task_id": "task_01M8524TP29HE6PP10NJKSH9HW", "model": "wan2.7-r2v", "t": 1795466357.6030538}
