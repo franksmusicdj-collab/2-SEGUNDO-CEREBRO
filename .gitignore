@@ -3,3 +3,6 @@
 **/CREATIVOS/**/clips_malos/
 **/CREATIVOS/**/broll/
 **/CREATIVOS/swipe/**/videos/
+**/CREATIVOS/**/*.mp4
+**/CREATIVOS/**/*.wav
+**/CREATIVOS/**/__pycache__/

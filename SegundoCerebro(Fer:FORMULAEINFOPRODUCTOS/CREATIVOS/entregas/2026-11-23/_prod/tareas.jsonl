@@ -1,0 +1,7 @@
+{"name": "foto-ugc1", "task_id": "task_01M851C73BH07YB92RAX05FE6D", "model": "gpt-image-2", "t": 1795465551.143544}
+{"name": "foto-ugc2", "task_id": "task_01M851C7H52HYAVC0D3AZWSC3H", "model": "gpt-image-2", "t": 1795465551.5987897}
+{"name": "foto-ugc3", "task_id": "task_01M851C7YZX0VPHZ9DMXZMNVHB", "model": "gpt-image-2", "t": 1795465552.0048177}
+{"name": "ugc1-C1-prueba", "task_id": "task_01M851ER7ZVZ7Q903M8915YR72", "model": "wan2.7-r2v", "t": 1795465634.2178404}
+{"name": "ugc1-C1-prueba-b", "task_id": "task_01M851FGZV6S3PXGXHNA149CE9", "model": "wan2.7-r2v", "t": 1795465659.5639467}
+{"name": "ugc1-INSERTO-celular-pared", "task_id": "task_01M851QSWH03WVXGWZKDNMAY2J", "model": "grok-imagine-1.5-video-ext", "t": 1795465930.797758}
+{"name": "sfx-impacto-celular", "task_id": "task_01M851QTGCRAF9621HA6CP82MD", "model": "suno-sounds", "t": 1795465931.4635215}

@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Anton,75,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,6,2,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.70,S,,0,0,0,,{\pos(360,819)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H00E5FF&}CHEGA!{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.07,0:00:01.59,S,,0,0,0,,{\pos(360,819)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}NÃO AGUENTO MAIS
+Dialogue: 0,0:00:01.59,0:00:01.87,S,,0,0,0,,{\pos(360,819)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}FICAR O DIA
+Dialogue: 0,0:00:01.87,0:00:02.49,S,,0,0,0,,{\pos(360,819)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}INTEIRO NESSE
+Dialogue: 0,0:00:02.49,0:00:02.97,S,,0,0,0,,{\pos(360,819)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H00E5FF&}CELULAR!{\c&HFFFFFF&}
