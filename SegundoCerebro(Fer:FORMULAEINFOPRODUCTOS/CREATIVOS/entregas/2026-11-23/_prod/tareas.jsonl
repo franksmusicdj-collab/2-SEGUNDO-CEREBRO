@@ -12,3 +12,7 @@
 {"name": "ugc1-C1-ref", "task_id": "task_01M852SSPB940D1Z1Z7GKQDQ43", "model": "wan2.7-r2v", "t": 1795467044.7256398}
 {"name": "ugc1-C1-videoref", "task_id": "task_01M85350MM9BJQJ2ZP1YS9XZ8D", "model": "wan2.7-r2v", "t": 1795467412.270384}
 {"name": "ugc1-C1-videoref3s", "task_id": "task_01M8546PDCP8R1ZQSFD3FS5GW5", "model": "wan2.7-r2v", "t": 1795468515.9135365}
+{"name": "cuadro-swap-ugc1", "task_id": "task_01M854JE941BP4VTV7JJ6AK459", "model": "gpt-image-2", "t": 1795468900.797902}
+{"name": "cuadro-swap-ugc2", "task_id": "task_01M854JF9CT33AAQ68WTSZNXW7", "model": "gpt-image-2", "t": 1795468901.8312538}
+{"name": "cuadro-swap-ugc3", "task_id": "task_01M854JGB61PVYP9N15DC9MF96", "model": "gpt-image-2", "t": 1795468902.9280236}
+{"name": "ugc1-C1-swap", "task_id": "task_01M854QY62381V2533D8YR11PC", "model": "wan2.7-r2v", "t": 1795469080.9344707}

@@ -8,17 +8,18 @@ k = sys.argv[1]; frase = sys.argv[2]; voz = sys.argv[3]; desc = sys.argv[4]
 foto = urls(wait([t for t in L if t["name"] == f"foto-{k}"][-1]["task_id"]))[0]
 VIDEO = sys.argv[5] if len(sys.argv) > 5 else "https://getapib.org/video/9998204532601161-1582684c-fdd1-467d-8141-cf32de2f2fd8-referencia_gancho_7s.mp4"
 TAG = sys.argv[6] if len(sys.argv) > 6 else "videoref"
+PRIMER = sys.argv[7] if len(sys.argv) > 7 else None
 CUADERNILLO = "https://getapib.org/image/9998204533093613-de1a5d6c-8e46-42dd-ac66-076c8eec1f70-cuadernillo.png"
 prompt = (f"Video 1 shows only the throw. Recreate its first seconds shot for shot: the same amateur handheld smartphone camera behind a wooden table, the same camera movement, "
           f"the same timing and the same way of throwing the phone hard against the wall and of the camera following it, at the same real speed. "
-          f"Replace the woman of video 1 with {desc} from image 1, keeping that person's face and voice. "
+          f"The person is NOT the woman of video 1: it is {desc} from image 1 (face, hair, body, clothes and voice of image 1), exactly as in the first frame. "
           f"The black and gold spiral workbook from image 2, with the cover text MENTE ACTIVA, lies on the table in the foreground during the whole video. "
           f"After the throw, the person turns to the camera, furious, and says in Brazilian Portuguese with a native accent: {frase} "
           f"Do not copy any subtitles or captions from video 1. Realistic expressions, accurate lip sync.")
 item = {"url": foto, "role": "reference_image"}
 if voz != "-": item["reference_voice"] = voz
 tid = submit("videos", f"{k}-C1-{TAG}", {"model": "wan2.7-r2v", "prompt": prompt,
-    "image_with_roles": [item, {"url": CUADERNILLO, "role": "reference_image"}], "video_urls": [VIDEO],
+    "image_with_roles": [item, {"url": CUADERNILLO, "role": "reference_image"}] + ([{"url": PRIMER, "role": "first_frame"}] if PRIMER else []), "video_urls": [VIDEO],
     "negative_prompt": "subtitles, captions, text on screen, burned-in text, watermark, extra people, slow motion, oversized phone, cuts",
     "resolution": "720P", "duration": 7, "size": "9:16", "prompt_extend": False, "watermark": False})
 d = wait(tid, every=15, max_s=2400)
