@@ -83,4 +83,4 @@ El dominio es coherente y se puede resumir en una frase: **vender productos digi
 
 ## Outputs
 
-*(vacío: acá se enlazan tus entregables de `OUTPUTS/`)*
+- [Caza · barrido general (2026-11-23)](../OUTPUTS/2026-11-23-caza-barrido-general.md): candidata A, Desafío Pilates en Casa 50+ (Brasil → LatAm y España)
