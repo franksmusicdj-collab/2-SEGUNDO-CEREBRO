@@ -34,7 +34,7 @@ Contexto del método en la wiki: `hooks.md`, `guiones-de-video-ads.md`, `angulos
 
 - **Biblioteca de anuncios:** primero `ads_library_search` del conector oficial de Meta (buscalo con ToolSearch). Si no está, usá el navegador en `facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&view_all_page_id=<id>`. EspiAd (`mcp__ESPIAad__ver_oferta`) sirve para conseguir el link a la Biblioteca de una oferta ya cazada, pero no reemplaza el barrido por página.
 - **Video:** `ffmpeg` está instalado.
-- **Transcripción:** `whisper-cli` **no** está instalado. Si el usuario acepta transcribir, avisá y ofrecé instalarlo (whisper.cpp con `ggml-small.bin`, o `pip install openai-whisper`) antes de seguir.
+- **Transcripción:** en vez de `whisper-cli`, usá Whisper de Python, que ya está instalado: `whisper <archivo>.wav --model medium --language pt --output_format srt --fp16 False`, o `import whisper` en un script. Para los textos en pantalla está Tesseract (`pytesseract`) con español, portugués e inglés.
 
 ## Dónde guardar
 

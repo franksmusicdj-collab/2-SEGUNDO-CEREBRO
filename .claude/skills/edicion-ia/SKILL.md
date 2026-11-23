@@ -29,10 +29,16 @@ Va después de `rayo-x`: el rayo X entrega los guiones del swipe y esta skill lo
 
 ## Herramientas en este entorno
 
-- **Instalado:** `ffmpeg` (recortes, atempo + setpts, loudnorm a -14 LUFS, render 1080x1920 a 30 fps) y Python.
-- **No instalado** (avisá y ofrecé instalarlo antes de usarlo): Whisper (para el QC hace falta el modelo **medium**), `torchaudio` (alineación forzada MMS_FA), OpenCV y un OCR como Tesseract (para los detectores de cara, saltos y texto quemado).
-- **Generación:** el conector **Higgsfield** está disponible (Veo 3.1 Lite, Kling, Nano Banana, GPT Image, voces) y tiene `estimate_video_cost` y `estimate_image_cost` para el presupuesto. Antes de usarlo, cargá sus instrucciones de workflow como pide el propio conector.
-- **ApiMart, HeyGen, ElevenLabs y Kie.ai no tienen clave cargada.** Si la ruta elegida los necesita, pedí la clave con `request_credential` para el host que corresponda. Nunca pidas que la peguen en el chat.
+- **Instalado (lo deja el script de configuración del entorno en cada sesión):**
+  - `ffmpeg`: recortes, atempo + setpts, loudnorm a -14 LUFS, render 1080x1920 a 30 fps.
+  - **Whisper** (`import whisper`, modelo `medium` con `fp16=False` en CPU).
+  - **Alineación forzada:** `torchaudio.pipelines.MMS_FA`. Cargá el audio con `soundfile` (no con `torchaudio.load`) a 16 kHz mono.
+  - **OpenCV** (`cv2`) y **Tesseract** con español, portugués e inglés (`pytesseract`), para los detectores de cara, saltos y texto quemado.
+  - `espeak-ng` solo para pruebas del pipeline, nunca como voz de un anuncio.
+  - Los modelos se bajan solos la primera vez (Whisper medium ≈1,5 GB y MMS_FA ≈1,2 GB).
+- **ApiMart está conectado.** La clave la inyecta el proxy en `https://api.apimart.ai`: mandá `Authorization: Bearer proxy-injected` y nunca la pidas ni la muestres. Modelos verificados en `/v1/models` el 2026-11-23: `wan2.7-r2v`, `Omni-Flash-Ext`, `gemini-omni-1.1-flash`, `wan2.7-videoedit`, `grok-imagine-video`, `kling-v2-6`, `veo3.1-lite`, `gpt-image-2`, `gemini-nano-banana-2.1`. Revisá los parámetros del endpoint de video en docs.apimart.ai antes del primer clip.
+- **Higgsfield** también está conectado (Veo 3.1 Lite, Kling, Nano Banana, GPT Image, voces), con `estimate_video_cost` y `estimate_image_cost` para el presupuesto. Antes de usarlo, cargá sus instrucciones de workflow como pide el propio conector.
+- **HeyGen, ElevenLabs y Kie.ai no tienen clave cargada.** Si la ruta elegida los necesita, pedí la clave con `request_credential` para el host que corresponda. Nunca pidas que la peguen en el chat.
 
 ## Dónde guardar
 

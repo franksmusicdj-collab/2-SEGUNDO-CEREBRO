@@ -26,7 +26,7 @@ Va después de `cazar` y `rayo-x`: la caza elige la oferta, el rayo X define los
 ## Herramientas en este entorno
 
 - **PDF:** Chrome está en `/usr/bin/google-chrome` (headless, costo cero) y `pdftoppm` para rasterizar y revisar cada página. Playwright también sirve para leer la landing y su CSS.
-- **Imágenes:** el manual usa Kie.ai (`nano-banana-2-1` por defecto), pero **en este entorno no hay clave de Kie.ai cargada**. Si el usuario quiere usar Kie, pedila con `request_credential` para `api.kie.ai` y consultá el precio del día antes de generar. Si no, usá el conector **Higgsfield** (`generate_image`) y consultá el costo con `estimate_image_cost`. Decí siempre qué modelo usaste y cuánto costó.
+- **Imágenes:** el manual usa Kie.ai (`nano-banana-2-1` por defecto), pero **en este entorno no hay clave de Kie.ai cargada**. Si el usuario quiere usar Kie, pedila con `request_credential` para `api.kie.ai` y consultá el precio del día antes de generar. Si no, usá **ApiMart**, que ya está conectado y tiene `gemini-nano-banana-2.1` y `gpt-image-2` (mandá `Authorization: Bearer proxy-injected` a `https://api.apimart.ai`; el proxy pone la clave real), o el conector **Higgsfield** (`generate_image`) y consultá el costo con `estimate_image_cost`. Decí siempre qué modelo usaste y cuánto costó.
 - **Planillas:** `.xlsx` con la skill `anthropic-skills:xlsx`.
 - **Entrega en Impultienda:** el PDF terminado se puede cargar como entregable con `impultienda_cargar_entregable`, **solo con OK explícito**.
 
