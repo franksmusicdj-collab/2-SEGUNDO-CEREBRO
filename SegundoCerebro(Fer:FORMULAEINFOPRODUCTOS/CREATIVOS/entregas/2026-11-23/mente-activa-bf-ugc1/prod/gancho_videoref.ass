@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Anton,75,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,6,2,5,30,30,0,1
+Style: CAJA,Anton,61,&H00FFFFFF,&H00FFFFFF,&H50202020,&H50202020,0,0,0,0,100,100,1,0,3,11,0,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.88,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H5CD3F7&}CHEGA{\c&HFFFFFF&} {\c&H5CD3F7&}DE{\c&HFFFFFF&} TELA.
+Dialogue: 0,0:00:03.93,0:00:04.42,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H5CD3F7&}CHEGA!{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.89,0:00:05.44,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}NÃO AGUENTO MAIS
+Dialogue: 0,0:00:05.43,0:00:05.82,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}FICAR O DIA
+Dialogue: 0,0:00:05.77,0:00:06.38,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}INTEIRO NESSE
+Dialogue: 0,0:00:06.33,0:00:06.72,CAJA,,0,0,0,,{\pos(360,768)\fscx72\fscy72\t(0,90,\fscx110\fscy110)\t(90,160,\fscx100\fscy100)}{\c&H5CD3F7&}CELULAR!{\c&HFFFFFF&}
