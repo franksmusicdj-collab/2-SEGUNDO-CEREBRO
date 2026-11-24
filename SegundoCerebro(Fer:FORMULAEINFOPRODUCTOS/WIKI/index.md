@@ -83,4 +83,5 @@ El dominio es coherente y se puede resumir en una frase: **vender productos digi
 
 ## Outputs
 
+- [Caza semanal (2026-11-24)](../OUTPUTS/2026-11-24-caza-semanal.md): A1 Funcionários do Afonso (IA para Instagram), A2 Dancefit (baile 40+)
 - [Caza · barrido general (2026-11-23)](../OUTPUTS/2026-11-23-caza-barrido-general.md): candidata A, Desafío Pilates en Casa 50+ (Brasil → LatAm y España)
