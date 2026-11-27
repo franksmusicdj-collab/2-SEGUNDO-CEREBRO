@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-27
+**Procesado:** nada de RAW/
+**Cambios:** output guardado: OUTPUTS/2026-11-27-caza-navidad.md, enlazado en WIKI/index.md
+
 ## 2026-11-24
 **Procesado:** nada de RAW/
 **Cambios:** output guardado: OUTPUTS/2026-11-24-caza-semanal.md, enlazado en WIKI/index.md
